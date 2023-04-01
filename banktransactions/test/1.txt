@@ -1,0 +1,31 @@
+T000010010 T000010020 1000 10:20:30 ATM1
+T000010010 T000010030 2000 10:02:30 ATM2
+T000010010 T000010040 1500 09:23:30 ATM1 
+T000010020 T000010030 3000 08:20:31 ATM1 
+T000010030 T000010010 4000 12:40:00 ATM2 
+T000010040 T000010010 2000 10:30:00 ATM1
+T000010020 T000010040 3000 08:20:31 ATM1 
+T000010040 T000010030 2000 11:30:00 ATM1
+T000010040 T000010030 1000 18:30:00 ATM1
+#
+?number_transactions
+?total_money_transaction 
+?list_sorted_accounts
+?max_money_period 08:00:30 10:30:00
+?max_money_period 08:30:00 09:30:00
+?total_money_transaction_from T000010010
+?count_suspected_acc 3 3600
+#
+
+QUERY
+dem so TK chuyen tien >= K lan trong khoang thơi gian T (giây)
+tong so tien giao dich qua 1 ATM1
+user DungPQ co bao nhieu tai khoan
+Tong so tien DungPQ chuyen di tu ngay den ngay la bao nhieu 
+Tong so tien DungPQ nhan duoc vao tai khoan 0001 tu ngay den ngay la bao nhieu 
+Dem so luong nhom gom k nguoi sao cho doi mot co giao dich voi nhau tu ngay A den ngay B
+Tim khoang thoi gian (tu ngay - den ngay) sao cho trong do co so luong giao dich nhieu nhat 
+
+
+
+
