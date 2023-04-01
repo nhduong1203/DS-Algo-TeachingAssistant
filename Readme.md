@@ -1,2 +1,2 @@
-Document for DS&Algo 
+Document for DS&Algo course\
 -- Teaching Assistant--
