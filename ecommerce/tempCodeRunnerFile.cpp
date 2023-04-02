@@ -1,0 +1,1 @@
+genData("data/1.txt", 100,20,28);
