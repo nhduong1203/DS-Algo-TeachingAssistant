@@ -1,15 +1,15 @@
 **Data description**\
 The data about bank transactions consists of a sequence of transactions: the information of each transaction has **the following format**:
-<from_account>   <to_account>   \<money>   <time_point>   \<atm>
+<OrderID>   <CustomerID>      <ProductID>   <Qty>   <Date-time>
 
 **Details**:
-- **<from_account>**: the account from which money is transferred (which is a string of length from 6 to 20 )
--	**<to_account>**: the account which receives money in the transaction (which is a string of length from 6 to 20)
--	**\<money>**: amount of money transferred in the transaction (which is an integer from 1 to 10000)
--	**<time_point>**: the time point at which the transaction is performed, it is a string under the format HH:MM:SS  (hour: minute: second)
--	**\<atm>**: the code of the ATM where the transaction is taken (a string of length from 3 to 10)\
+- **<OrderID>**: id number of the order placed (which is a string of length from 6 to 20 )
+-	**<CustomerID>**: id number of the customer who place the order (which is a string of length from 6 to 20)
+-	**<ProductID>**: id number of the product in the order (which is a string of length from 6 to 20)
+-	**<Qty>**: quantity of the product that the customer place (an integer)
+-	**<Date-time>**: the time point at which the order is placed, it is a string under the format DD:MM:YY  (day: month: year)\
 
-**Example:** T00112233445 T001234002 2000 08:36:25 BIDV. Means that: at the ATM BIDV, account T00112233445 transfers 2000$ to account T001234002 at time point 08:36:25 (08 hour, 36 minutes, 25 seconds
+**Example:** OID00213  CID002135 PID002145 15 02/04/2023. Means that: at 02/04/2023, the customer with id CID002135 bought product with id PID002145 in quantity 15. Id of this order is OID00213.
 
 **Exercise:**
 Write a program that process following queries: 
