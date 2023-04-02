@@ -7,7 +7,7 @@ The data about bank transactions consists of a sequence of transactions: the inf
 -	**<to_account>**: the account which receives money in the transaction (which is a string of length from 6 to 20)
 -	**\<money>**: amount of money transferred in the transaction (which is an integer from 1 to 10000)
 -	**<time_point>**: the time point at which the transaction is performed, it is a string under the format HH:MM:SS  (hour: minute: second)
--	**\<atm>**: the code of the ATM where the transaction is taken (a string of length from 3 to 10)\
+-	**\<atm>**: the code of the ATM where the transaction is taken (a string of length from 3 to 10)
 
 **Example:** T00112233445 T001234002 2000 08:36:25 BIDV. Means that: at the ATM BIDV, account T00112233445 transfers 2000$ to account T001234002 at time point 08:36:25 (08 hour, 36 minutes, 25 seconds
 
