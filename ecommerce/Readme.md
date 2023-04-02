@@ -13,10 +13,12 @@ The data about bank transactions consists of a sequence of transactions: the inf
 
 **Exercise:**
 Write a program that process following queries: 
--	?count_total_transactions: compute the total number of transactions of the data
--	?count_total_money: compute the total amount of money of transactions  
--	?list_sorted_account: compute the sequence of bank accounts (including sending and receiving accounts) appearing in the transaction (sorted in an increasing (alphabetical) order)  
--	?amount_money_trans_from <account>: compute the total amount of money transferred from the account <account>  
+-	?count_total_order: compute the total number of order
+-	?list_sorted_product: compute the sequence of products appearing in orders (sorted in an increasing (alphabetical) order)  
+-	?active_customer <CustomerID>: Check if the customer has placed an order. Return **False** if the customer has never placed any order.
+-	?number_customer_order <CustomerID>: compute the number of orders of this customer.
+- ?best_customer: compute the top 5 customers who have the biggest orders.
+- ?best_product: calculate the top 5 most purchased products
   
 **Input (stdin)**
 The input consists of 2 blocks of information: the data block and the query block
