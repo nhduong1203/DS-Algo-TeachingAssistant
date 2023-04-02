@@ -14,9 +14,8 @@ The data about bank transactions consists of a sequence of transactions: the inf
 **Exercise:**
 Write a program that process following queries: 
 -	?count_total_order: compute the total number of order
--	?list_sorted_product: compute the sequence of products appearing in orders (sorted in an increasing (alphabetical) order)  
--	?active_customer <CustomerID>: Check if the customer has placed an order. Return **False** if the customer has never placed any order.
--	?number_customer_order <CustomerID>: compute the number of orders of this customer.
+-	?active_customer \<CustomerID>: Check if the customer has placed an order. Return **False** if the customer has never placed any order.
+-	?number_customer_order \<CustomerID>: compute the number of orders of this customer.
 - ?best_customer: compute the top 5 customers who have the biggest orders.
 - ?best_product: calculate the top 5 most purchased products
   
