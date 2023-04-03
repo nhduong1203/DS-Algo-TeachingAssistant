@@ -82,15 +82,13 @@ void find_insert(string cid, string pid, int qty){
 
 Node* insertBST(string cid, string pid, int qty, Node* r){
     if(r == NULL) return makeNode(cid, pid, qty);
-    if(qty == r->qty) return r;
-    if(qty < r->qty) r->leftChild = insertBST(cid, pid, qty,r->leftChild);
+    //if(qty == r->qty) return r;
+    if(qty <= r->qty) r->leftChild = insertBST(cid, pid, qty,r->leftChild);
     else r->rightChild = insertBST(cid, pid, qty,r->rightChild);
     return r;
 }
 
 void run(string datafile){
-    
-
     std::ifstream file(datafile); // Open file
     std::string line;
 
@@ -104,21 +102,45 @@ void run(string datafile){
             string pid = strings[1];
             int qty = std::stoi(strings[2]);
             find_insert(cid, pid, qty);
-            insertBST(cid, pid, qty, rootC);
-            insertBST(cid, pid, qty, rootP);
+            // rootC = insertBST(cid, pid, qty, rootC);
+            // rootP = insertBST(cid, pid, qty, rootP);
         }
         file.close(); // close
     }
     else {
         std::cout << "Can not open file!" << std::endl;
     }
+
+    for(int i=0; i<N; i++){
+        if(C[i] == NULL) continue;
+        else rootC = insertBST(C[i]->cid, C[i]->pid, C[i]->qty, rootC);
+    }
+
+    for(int i=0; i<M; i++){
+        if(P[i] == NULL) continue;
+        else rootP = insertBST(P[i]->cid, P[i]->pid, P[i]->qty, rootP);
+    }
+}
+
+void inOrder(Node* r){
+    if(r == NULL) {
+        return;
+    }
+    inOrder(r->leftChild);
+    cout << r->cid << " " << r->pid << " " << r->qty<<endl;
+    inOrder(r->rightChild);
 }
 
 int main(){
-    // std::vector<std::string> strings = get_strings("OID00001 CID00000 PID00002 8 19/11/2021");
-    // for(int i=0; i<strings.size(); i++){
-    //     cout << strings[i] << " "<<endl;
+    run("data/0.txt");
+
+    // for(int i=0; i<N; i++){
+    //     if(C[i] == NULL) continue;
+    //     else rootC = insertBST(C[i]->cid, C[i]->pid, C[i]->qty, rootC);
     // }
-    // run("data/0.txt");
+
+    inOrder(rootC);
+    cout <<endl;
+    inOrder(rootP);
 }
 
