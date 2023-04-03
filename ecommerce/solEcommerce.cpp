@@ -28,7 +28,7 @@ Node* makeNode(string cid, string pid, int qty){
     return p;
 }
 
-std::vector<std::string> get_strings(string line) {
+std::vector<std::string> extractData(string line) {
     std::vector<std::string> strings;
     string data[5];
     string temp = "";
@@ -88,22 +88,23 @@ Node* insertBST(string cid, string pid, int qty, Node* r){
     return r;
 }
 
-void run(string datafile){
+int constructData(string datafile){
+    int nextLine = 0;
     std::ifstream file(datafile); // Open file
     std::string line;
-
     std::vector<std::string> strings; // store data extract from each line
 
+    // Read data
     if (file.is_open()) { // Check if file open succesfull
         while (std::getline(file, line)) { // readline
+            nextLine += 1;
             if(line[0] == '#') break;
-            strings = get_strings(line);
+            strings = extractData(line);
             string cid = strings[0];
             string pid = strings[1];
             int qty = std::stoi(strings[2]);
             find_insert(cid, pid, qty);
-            // rootC = insertBST(cid, pid, qty, rootC);
-            // rootP = insertBST(cid, pid, qty, rootP);
+            
         }
         file.close(); // close
     }
@@ -111,14 +112,35 @@ void run(string datafile){
         std::cout << "Can not open file!" << std::endl;
     }
 
+    // Construct BST
     for(int i=0; i<N; i++){
         if(C[i] == NULL) continue;
         else rootC = insertBST(C[i]->cid, C[i]->pid, C[i]->qty, rootC);
     }
-
     for(int i=0; i<M; i++){
         if(P[i] == NULL) continue;
         else rootP = insertBST(P[i]->cid, P[i]->pid, P[i]->qty, rootP);
+    }
+    return nextLine;
+}
+
+void solveQuery(string datafile, int checkpoint){
+    std::ifstream file(datafile); // Open file
+    std::string line;
+    int lineIndex = -1;
+
+    if (file.is_open()) { // Check if file open succesfull
+        while (std::getline(file, line)) { // readline
+            lineIndex += 1;
+            if(lineIndex < checkpoint) continue;
+            if(line[0] == '#') break;
+            // TODO
+
+        }
+        file.close(); // close
+    }
+    else {
+        std::cout << "Can not open file!" << std::endl;
     }
 }
 
@@ -132,7 +154,7 @@ void inOrder(Node* r){
 }
 
 int main(){
-    run("data/0.txt");
+    constructData("data/0.txt");
 
     // for(int i=0; i<N; i++){
     //     if(C[i] == NULL) continue;
