@@ -10,7 +10,7 @@ The data about bank transactions consists of a sequence of transactions: the inf
 -	**\<atm>**: the code of the ATM where the transaction is taken (a string of length from 3 to 10)
 
 **Example:** T00112233445 T001234002 2000 08:36:25 BIDV. Means that: at the ATM BIDV, account T00112233445 transfers 2000$ to account T001234002 at time point 08:36:25 (08 hour, 36 minutes, 25 seconds
-
+#
 **Exercise:**
 Write a program that process following queries: 
 -	?count_total_transactions: compute the total number of transactions of the data
