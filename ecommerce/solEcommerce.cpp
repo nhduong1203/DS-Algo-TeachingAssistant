@@ -52,6 +52,8 @@ std::vector<std::string> get_strings(string line) {
 
 Node* C[N];
 Node* P[M];
+Node* rootC;
+Node* rootP;
 
 int hashFunction(string id){
     int c = 0;
@@ -62,7 +64,7 @@ int hashFunction(string id){
     return c;
 }
 
-void find(string cid, string pid, int qty){
+void find_insert(string cid, string pid, int qty){
     Node* thisNode = makeNode(cid, pid, qty);
 
     int hashValueC = hashFunction(cid);
@@ -78,7 +80,13 @@ void find(string cid, string pid, int qty){
     }
 }
 
-
+Node* insertBST(string cid, string pid, int qty, Node* r){
+    if(r == NULL) return makeNode(cid, pid, qty);
+    if(qty == r->qty) return r;
+    if(qty < r->qty) r->leftChild = insertBST(cid, pid, qty,r->leftChild);
+    else r->rightChild = insertBST(cid, pid, qty,r->rightChild);
+    return r;
+}
 
 void run(string datafile){
     
@@ -87,6 +95,7 @@ void run(string datafile){
     std::string line;
 
     std::vector<std::string> strings; // store data extract from each line
+
     if (file.is_open()) { // Check if file open succesfull
         while (std::getline(file, line)) { // readline
             if(line[0] == '#') break;
@@ -94,7 +103,9 @@ void run(string datafile){
             string cid = strings[0];
             string pid = strings[1];
             int qty = std::stoi(strings[2]);
-            find(cid, pid, qty);
+            find_insert(cid, pid, qty);
+            insertBST(cid, pid, qty, rootC);
+            insertBST(cid, pid, qty, rootP);
         }
         file.close(); // close
     }
