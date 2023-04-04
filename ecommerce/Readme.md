@@ -33,13 +33,48 @@ The input consists of 2 blocks of information: the data block and the query bloc
 
 **Example:**
  #
-_Input_\
+_Input_
+OID00001 CID00000 PID00002 8 19/11/2021\
+OID00002 CID00003 PID00001 17 20/04/2022\
+OID00003 CID00004 PID00002 11 10/03/2020\
+OID00004 CID00000 PID00000 14 17/08/2020\
+OID00005 CID00003 PID00002 18 18/08/2020\
+OID00006 CID00002 PID00000 2 28/09/2022\
+OID00007 CID00004 PID00004 19 23/12/2022\
+OID00008 CID00002 PID00002 5 07/05/2021\
+OID00009 CID00001 PID00002 15 14/08/2022\
+OID00010 CID00002 PID00005 13 25/08/2022\
+
+
 
  
 #
-_Query_\
+_Query_
+?count_total_order\
+?active_customer CID00000\
+?number_customer's_order CID00003\
+?best_customer\
+?best_product\
 
 
 #
-_Output_\
+_Output_
+10\
+------------------------------------------\
+True\
+------------------------------------------\
+2\
+------------------------------------------\
+CID00003 35\
+CID00004 30\
+CID00000 22\
+CID00002 20\
+CID00001 15\
+------------------------------------------\
+PID00002 57\
+PID00004 19\
+PID00001 17\
+PID00000 16\
+PID00005 13\
+------------------------------------------\
 
