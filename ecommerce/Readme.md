@@ -33,7 +33,7 @@ The input consists of 2 blocks of information: the data block and the query bloc
 
 **Example:**
  #
-_Input_
+_Input_\
 OID00001 CID00000 PID00002 8 19/11/2021\
 OID00002 CID00003 PID00001 17 20/04/2022\
 OID00003 CID00004 PID00002 11 10/03/2020\
@@ -49,7 +49,7 @@ OID00010 CID00002 PID00005 13 25/08/2022
 
  
 #
-_Query_
+_Query_\
 ?count_total_order\
 ?active_customer CID00000\
 ?number_customer's_order CID00003\
