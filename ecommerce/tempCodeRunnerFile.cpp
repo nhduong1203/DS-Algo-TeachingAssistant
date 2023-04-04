@@ -1,2 +1,1 @@
-
-    // inOrder(rootC);
+int count = 0;

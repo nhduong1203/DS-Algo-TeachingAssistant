@@ -9,10 +9,13 @@ using namespace std;
 #define N 2000
 //<OrderID>   <CustomerID>      <ProductID>   <Qty>   <Date-time>
 
+int totalOrders = 0;
+
 typedef struct Node{
     string pid;
     string cid;
     int qty;
+    int numberOrder = 0;
     int index;
     struct Node* leftChild;
     struct Node* rightChild;
@@ -23,6 +26,7 @@ Node* makeNode(string cid, string pid, int qty){
     p->pid = pid;
     p->cid = cid;
     p->qty = qty;
+    p->numberOrder = 1;
 
     p->leftChild = NULL; p->rightChild = NULL;
     return p;
@@ -36,6 +40,7 @@ std::vector<std::string> extractData(string line) {
     int count = 0;
     for(int i=0; i<n; i++){
         if(line[i] == ' '){
+            strings.push_back(temp);
             data[count] = temp;
             temp = "";
             count++;
@@ -44,9 +49,6 @@ std::vector<std::string> extractData(string line) {
             temp += line[i];
         }
     }
-    strings.push_back(data[1]);
-    strings.push_back(data[2]);
-    strings.push_back(data[3]);
     return strings;
 }
 
@@ -65,16 +67,17 @@ int hashFunction(string id){
 }
 
 void find_insert(string cid, string pid, int qty){
-    Node* thisNode = makeNode(cid, pid, qty);
-
+    Node* thisNodeC = makeNode(cid, pid, qty);
     int hashValueC = hashFunction(cid);
-    if (C[hashValueC] == NULL) C[hashValueC] = thisNode;
+    if (C[hashValueC] == NULL) C[hashValueC] = thisNodeC;
     else{
         C[hashValueC]->qty += qty;
+        C[hashValueC]->numberOrder += 1;
     }
 
+    Node* thisNodeP = makeNode(cid, pid, qty);
     int hashValueP = hashFunction(pid);
-    if (P[hashValueP] == NULL) P[hashValueP] = thisNode;
+    if (P[hashValueP] == NULL) P[hashValueP] = thisNodeP;
     else{
         P[hashValueP]->qty += qty;
     }
@@ -88,6 +91,24 @@ Node* insertBST(string cid, string pid, int qty, Node* r){
     return r;
 }
 
+void reverseInOrder(Node *r, int &a, string type){
+    if(r==NULL) return;
+    reverseInOrder(r->rightChild, a, type);
+    if(a >= 5) return;
+    if (type == "customer") cout << r->cid << " " << r->qty << endl;
+    else if (type == "product")cout << r->pid << " " << r->qty << endl;
+    a += 1;
+    reverseInOrder(r->leftChild, a, type);
+}
+
+void inOrder(Node* r){
+    if(r == NULL) return;
+    inOrder(r->leftChild);
+    cout << r->cid << " " << r->pid << " " << r->qty<<endl;
+    inOrder(r->rightChild);
+}
+
+
 int constructData(string datafile){
     int nextLine = 0;
     std::ifstream file(datafile); // Open file
@@ -99,10 +120,11 @@ int constructData(string datafile){
         while (std::getline(file, line)) { // readline
             nextLine += 1;
             if(line[0] == '#') break;
+            totalOrders += 1;
             strings = extractData(line);
-            string cid = strings[0];
-            string pid = strings[1];
-            int qty = std::stoi(strings[2]);
+            string cid = strings[1];
+            string pid = strings[2];
+            int qty = std::stoi(strings[3]);
             find_insert(cid, pid, qty);
             
         }
@@ -128,6 +150,8 @@ void solveQuery(string datafile, int checkpoint){
     std::ifstream file(datafile); // Open file
     std::string line;
     int lineIndex = -1;
+    std::vector<std::string> strings;
+    string query;
 
     if (file.is_open()) { // Check if file open succesfull
         while (std::getline(file, line)) { // readline
@@ -135,6 +159,36 @@ void solveQuery(string datafile, int checkpoint){
             if(lineIndex < checkpoint) continue;
             if(line[0] == '#') break;
             // TODO
+            strings = extractData(line);
+            query = strings[0];
+
+            if(query == "?count_total_order"){
+                cout << totalOrders <<endl;
+            }
+
+            else if(query == "?active_customer"){
+                string cid = strings[1];
+                int hashValue = hashFunction(cid);
+                if (C[hashValue] == NULL) cout << "False"<<endl;
+                else cout << "True"<<endl;
+            }
+
+            else if(query == "?number_customer's_order"){
+                string cid = strings[1];
+                int hashValue = hashFunction(cid);
+                if (C[hashValue] == NULL) cout << "0"<<endl;
+                else cout << C[hashValue]->numberOrder << endl;
+            }
+            
+            else if(query == "?best_customer"){
+                int count = 0;
+                reverseInOrder(rootC, count, "customer");
+            }
+
+            else if(query == "?best_product"){
+                int count = 0;
+                reverseInOrder(rootP, count, "product");
+            }
 
         }
         file.close(); // close
@@ -144,25 +198,10 @@ void solveQuery(string datafile, int checkpoint){
     }
 }
 
-void inOrder(Node* r){
-    if(r == NULL) {
-        return;
-    }
-    inOrder(r->leftChild);
-    cout << r->cid << " " << r->pid << " " << r->qty<<endl;
-    inOrder(r->rightChild);
-}
 
 int main(){
-    constructData("data/0.txt");
-
-    // for(int i=0; i<N; i++){
-    //     if(C[i] == NULL) continue;
-    //     else rootC = insertBST(C[i]->cid, C[i]->pid, C[i]->qty, rootC);
-    // }
-
-    inOrder(rootC);
-    cout <<endl;
-    inOrder(rootP);
+    constructData("data/1.txt");
+    int count = 0;
+    reverseInOrder(rootC, count, "customer");
 }
 
