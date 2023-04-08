@@ -89,5 +89,5 @@ int main(){
     // genData("data/1.txt", 100,20,28);
     // genData("data/2.txt", 1000,50,100);
     // genData("data/3.txt", 10000,150,300);
-    genData("data/4.txt", 100000,700,1500);
+    genData("data/test.txt", 100000,700,1500);
 }

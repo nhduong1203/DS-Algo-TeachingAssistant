@@ -36,6 +36,7 @@ std::vector<std::string> extractData(string line) {
     std::vector<std::string> strings;
     string data[5];
     string temp = "";
+    line += ' ';
     int n = line.length();
     int count = 0;
     for(int i=0; i<n; i++){
@@ -161,33 +162,35 @@ void solveQuery(string datafile, int checkpoint){
             // TODO
             strings = extractData(line);
             query = strings[0];
+            
 
             if(query == "?count_total_order"){
                 cout << totalOrders <<endl;
+                cout<< "------------------------------------------" <<endl;
             }
-
             else if(query == "?active_customer"){
                 string cid = strings[1];
                 int hashValue = hashFunction(cid);
                 if (C[hashValue] == NULL) cout << "False"<<endl;
                 else cout << "True"<<endl;
+                cout<< "------------------------------------------" <<endl;
             }
-
             else if(query == "?number_customer's_order"){
                 string cid = strings[1];
                 int hashValue = hashFunction(cid);
                 if (C[hashValue] == NULL) cout << "0"<<endl;
                 else cout << C[hashValue]->numberOrder << endl;
+                cout<< "------------------------------------------" <<endl;
             }
-            
             else if(query == "?best_customer"){
                 int count = 0;
                 reverseInOrder(rootC, count, "customer");
+                cout<< "------------------------------------------" <<endl;
             }
-
             else if(query == "?best_product"){
                 int count = 0;
                 reverseInOrder(rootP, count, "product");
+                cout<< "------------------------------------------" <<endl;
             }
 
         }
@@ -200,8 +203,10 @@ void solveQuery(string datafile, int checkpoint){
 
 
 int main(){
-    constructData("data/1.txt");
-    int count = 0;
-    reverseInOrder(rootC, count, "customer");
+    string datafile = "data/0.txt";
+    int checkpoint = constructData(datafile);
+    // cout <<checkpoint;
+    solveQuery(datafile, checkpoint);
+
 }
 

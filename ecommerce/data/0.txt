@@ -9,3 +9,9 @@ OID00008 CID00002 PID00002 5 07/05/2021
 OID00009 CID00001 PID00002 15 14/08/2022
 OID00010 CID00002 PID00005 13 25/08/2022
 #
+?count_total_order
+?active_customer CID00000
+?number_customer's_order CID00003
+?best_customer
+?best_product
+#
