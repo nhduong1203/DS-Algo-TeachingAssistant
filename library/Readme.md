@@ -1,15 +1,15 @@
 **Data description**\
-The data about bank transactions consists of a sequence of transactions: the information of each transaction has **the following format**:
-\<OrderID>   \<CustomerID>      \<ProductID>   \<Qty>   \<Date-time>
+The data includes information about borrow and return books in a library. The information of each book borrow has **the following format**:
+\<UserID>   \<BookID>  \<BookCategory>   \<BorrowDate>   \<ReturnDate>
 
 **Details**:
-- **\<OrderID>**: id number of the order placed (which is a string of length from 6 to 20 )
--	**\<CustomerID>**: id number of the customer who place the order (which is a string of length from 6 to 20)
--	**\<ProductID>**: id number of the product in the order (which is a string of length from 6 to 20)
--	**\<Qty>**: quantity of the product that the customer place (an integer)
--	**\<Date-time>**: the time point at which the order is placed, it is a string under the format DD:MM:YY  (day: month: year)
+- **\<UserID>**: id number of the user who borrow the book (which is a string of length from 6 to 20 )
+-	**\<BookID>**: id number of the book (which is a string of length from 6 to 20)
+-	**\<BookCategory>**: category of the book (which is a string of length from 6 to 20)
+-	**\<BorrowDate>**: the day that the user start borrow the book, it is a string under the format DD:MM:YY  (day: month: year)
+-	**\<ReturnDate>**: the day the user return the book, it is a string under the format DD:MM:YY  (day: month: year)
 
-**Example:** OID00213  CID002135 PID002145 15 02/04/2023. Means that: at 02/04/2023, the customer with id CID002135 bought product with id PID002145 in quantity 15. Id of this order is OID00213.
+**Example:** UID000015 BID000042 economics 17/01/2021 14/02/2021. Means that: the user **UID000015** started borrowing the **economics** book **BID000042** at 17/01/2021. After that, the user returned the book at 14/02/2021.
 
 **Exercise:**
 Write a program that process following queries: 
