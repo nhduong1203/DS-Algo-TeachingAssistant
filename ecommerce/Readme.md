@@ -16,8 +16,8 @@ Write a program that process following queries:
 -	?count_total_order: compute the total number of order
 -	?active_customer \<CustomerID>: Check if the customer has placed an order. Return **False** if the customer has never placed any order.
 -	?number_customer's_order \<CustomerID>: compute the number of orders of this customer.
-- ?best_customer: compute the top 5 customers who have the biggest orders.
-- ?best_product: calculate the top 5 most purchased products
+- ?best_customer: compute the top 5 customers who have the biggest total quantity of products they ordered. Print their ID and their total quantity of products.
+- ?best_product: calculate the top 5 most purchased products (count by quantity). Print products' id and its total quantity.
   
 **Input (stdin)**
 The input consists of 2 blocks of information: the data block and the query block
