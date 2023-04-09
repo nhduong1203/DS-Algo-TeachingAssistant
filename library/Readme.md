@@ -13,12 +13,12 @@ The data includes information about borrow and return books in a library. The in
 
 **Exercise:**
 Write a program that process following queries: 
--   ?total_book_borrow
--   ?best_category
--   ?best_book
--   ?best_user
--   ?available_book \<BookID> \<Date>
--   ?number_user_borrow \<UserID>
+-  ?total_book_borrow: Return the total number of times to borrow books from the library.
+-  ?best_book: Return the book that has been borrow most.
+-  ?best_user: Return the user that borrowed the most book.
+-  ?number_user_borrow \<UserID>: Return the number of book that the user borrowed.
+-  ?list_user_borrow \<UserID>: Return list book that the user borrowed.
+-  ?sort_category: Return the list of book's category that has been sort in ascending order of times it has been borrowed.
 
   
 **Input (stdin)**
@@ -36,48 +36,54 @@ The input consists of 2 blocks of information: the data block and the query bloc
 **Example:**
  #
 _Input_\
-OID00001 CID00000 PID00002 8 19/11/2021\
-OID00002 CID00003 PID00001 17 20/04/2022\
-OID00003 CID00004 PID00002 11 10/03/2020\
-OID00004 CID00000 PID00000 14 17/08/2020\
-OID00005 CID00003 PID00002 18 18/08/2020\
-OID00006 CID00002 PID00000 2 28/09/2022\
-OID00007 CID00004 PID00004 19 23/12/2022\
-OID00008 CID00002 PID00002 5 07/05/2021\
-OID00009 CID00001 PID00002 15 14/08/2022\
-OID00010 CID00002 PID00005 13 25/08/2022
+UID000001 BID000007 economics 26/10/2019 06/11/2019 \
+UID000005 BID000004 science 15/09/2019 28/09/2019 \
+UID000001 BID000007 economics 07/11/2019 22/11/2019\
+UID000001 BID000001 sports 26/04/2019 15/05/2019 \
+UID000004 BID000008 science 09/10/2022 29/10/2022 \
+UID000005 BID000002 sports 19/04/2020 20/04/2020 \
+UID000005 BID000010 sports 05/09/2019 18/09/2019\
+UID000004 BID000005 history 15/07/2020 13/08/2020\
+UID000003 BID000007 economics 28/11/2019 11/12/2019\
+UID000001 BID000002 sports 21/04/2020 19/05/2020\
+UID000003 BID000005 history 24/08/2020 02/10/2020\
+UID000004 BID000007 economics 24/12/2019 17/01/2020\
+UID000003 BID000008 science 02/11/2022 08/11/2022\
+UID000004 BID000008 science 23/11/2022 21/12/2022\
+UID000003 BID000002 sports 03/06/2020 28/06/2020 
 
 
 
  
 #
 _Query_\
-?count_total_order\
-?active_customer CID00000\
-?number_customer's_order CID00003\
-?best_customer\
-?best_product
+?total_book_borrow\
+?best_book\
+?best_user\
+?number_user_borrow UID000003\
+?list_user_borrow UID000003\
+?sort_category
 
 
 #
 _Output_\
-10\
+15\
 ------------------------------------------\
-True\
+BID000007 economics 4\
 ------------------------------------------\
-2\
+UID000001 4\
 ------------------------------------------\
-CID00003 35\
-CID00004 30\
-CID00000 22\
-CID00002 20\
-CID00001 15\
+4\
 ------------------------------------------\
-PID00002 57\
-PID00004 19\
-PID00001 17\
-PID00000 16\
-PID00005 13\
+BID000007\
+BID000005\
+BID000008\
+BID000002\
+------------------------------------------\
+history 2\
+science 4\
+economics 4\
+sports 5\
 ------------------------------------------\
 \
 END.
