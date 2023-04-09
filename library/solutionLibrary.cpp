@@ -26,6 +26,13 @@ typedef struct User{
     struct User* rightChild;
 }User;
 
+typedef struct Category{
+    string cate;
+    int number = 0;
+    struct Category* leftChild;
+    struct Category* rightChild;
+}Category;
+
 Book* makeBook(string bid, string category){
     Book* p = new Book();
     p->bid = bid;
@@ -44,10 +51,22 @@ User* makeUser(string uid, vector<string>& listBook){
     return p;
 }
 
+Category *makeCategory(string category){
+    Category* p = new Category();
+    p->cate = category;
+    p->number = 1;
+    p->leftChild = NULL; p->rightChild = NULL;
+    return p;
+}
+
+
 Book* B[M];
 User* U[N];
+Category* C[M];
+
 Book* rootB;
 User* rootU;
+Category* rootC;
 
 int hashFunction(string id){
     int c = 0;
@@ -79,6 +98,8 @@ void find_insert(vector<string>& data){
     string uid = data[0];
     string bid = data[1];
     string category = data[2];
+
+    //Book
     Book* thisBook = makeBook(bid, category);
     int hashValueBook = hashFunction(bid);
     if (B[hashValueBook] == NULL) B[hashValueBook] = thisBook;
@@ -86,7 +107,7 @@ void find_insert(vector<string>& data){
         B[hashValueBook]->numberBookBorrow += 1;
     }
 
-    // User* thisUser = makeUser(uid, bid);
+    // User
     int hashValueUser = hashFunction(uid);
     if (U[hashValueUser] == NULL) {
         vector<string> listBook;
@@ -96,6 +117,14 @@ void find_insert(vector<string>& data){
     else{
         U[hashValueUser]->numberUserBorrow  += 1;
         U[hashValueUser]->listBook.push_back(bid);
+    }
+
+    //Category
+    int hashValueCategory = hashFunction(category);
+    Category* thisCategory = makeCategory(category);
+    if (C[hashValueCategory] == NULL) C[hashValueCategory] = thisCategory;
+    else{
+        C[hashValueCategory]->number += 1;
     }
 }
 
@@ -107,12 +136,25 @@ User* insertBSTUser(User* insert, User* r){
     return r;
 }
 
+Category* insertBSTCategory(Category* insert, Category* r){
+    if(r == NULL) return insert;
+    if(insert->number <= r->number) r->leftChild = insertBSTCategory(insert, r->leftChild);
+    else r->rightChild = insertBSTCategory(insert,r->rightChild);
+    return r;
+}
+
 Book* insertBSTBook(Book* insert, Book* r){
     if(r == NULL) return insert;
-    //if(qty == r->qty) return r;
     if(insert->numberBookBorrow <= r->numberBookBorrow) r->leftChild = insertBSTBook(insert,r->leftChild);
     else r->rightChild = insertBSTBook(insert,r->rightChild);
     return r;
+}
+
+void inOrderCategory(Category* r){
+    if(r == NULL) return;
+    inOrderCategory(r->leftChild);
+    cout << r->cate<< " " << r->number<<endl;
+    inOrderCategory(r->rightChild);
 }
 
 void inOrderUser(User* r){
@@ -121,6 +163,8 @@ void inOrderUser(User* r){
     cout << r->uid << " " << r->numberUserBorrow<<endl;
     inOrderUser(r->rightChild);
 }
+
+
 
 void bestUser(User* r){
     if(r->rightChild == NULL) cout << r->uid << " " << r->numberUserBorrow<<endl;
@@ -145,9 +189,6 @@ int constructData(string datafile){
             if(line[0] == '#') break;
             totalOrders += 1;
             strings = extractData(line);
-            // string uid = strings[0];
-            // string bid = strings[1];
-            // string category = strings[2];
             find_insert(strings);
             
         }
@@ -165,6 +206,10 @@ int constructData(string datafile){
     for(int i=0; i<M; i++){
         if(U[i] == NULL) continue;
         else rootU = insertBSTUser(U[i], rootU);
+    }
+    for(int i=0; i<M; i++){
+        if(C[i] == NULL) continue;
+        else rootC = insertBSTCategory(C[i], rootC);
     }
     return nextLine;
 }
@@ -184,6 +229,7 @@ void solveQuery(string datafile, int checkpoint){
             // TODO
             strings = extractData(line);
             query = strings[0];
+            //cout<<query<<endl;
             
 
             if(query == "?total_book_borrow"){
@@ -213,6 +259,9 @@ void solveQuery(string datafile, int checkpoint){
 
                 
                 cout<< "------------------------------------------" <<endl;
+            }
+            else if(query == "?sort_category"){
+                inOrderCategory(rootC);
             }
 
         }
