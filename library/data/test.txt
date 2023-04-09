@@ -13,3 +13,10 @@ UID000004 BID000007 economics 24/12/2019 17/01/2020
 UID000003 BID000008 science 02/11/2022 08/11/2022 
 UID000004 BID000008 science 23/11/2022 21/12/2022 
 UID000003 BID000002 sports 03/06/2020 28/06/2020 
+#
+?total_book_borrow
+?best_book
+?best_user
+?number_user_borrow UID000003
+?list_user_borrow UID000003
+#

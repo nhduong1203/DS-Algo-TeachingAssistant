@@ -13,11 +13,13 @@ The data includes information about borrow and return books in a library. The in
 
 **Exercise:**
 Write a program that process following queries: 
--	?count_total_order: compute the total number of order
--	?active_customer \<CustomerID>: Check if the customer has placed an order. Return **False** if the customer has never placed any order.
--	?number_customer's_order \<CustomerID>: compute the number of orders of this customer.
-- ?best_customer: compute the top 5 customers who have the biggest orders.
-- ?best_product: calculate the top 5 most purchased products
+-   ?total_book_borrow
+-   ?best_category
+-   ?best_book
+-   ?best_user
+-   ?available_book \<BookID> \<Date>
+-   ?number_user_borrow \<UserID>
+
   
 **Input (stdin)**
 The input consists of 2 blocks of information: the data block and the query block
