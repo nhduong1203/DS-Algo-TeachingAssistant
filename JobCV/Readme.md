@@ -36,54 +36,13 @@ The input consists of 2 blocks of information: the data block and the query bloc
 **Example:**
  #
 _Input_\
-UID000001 BID000007 economics 26/10/2019 06/11/2019 \
-UID000005 BID000004 science 15/09/2019 28/09/2019 \
-UID000001 BID000007 economics 07/11/2019 22/11/2019\
-UID000001 BID000001 sports 26/04/2019 15/05/2019 \
-UID000004 BID000008 science 09/10/2022 29/10/2022 \
-UID000005 BID000002 sports 19/04/2020 20/04/2020 \
-UID000005 BID000010 sports 05/09/2019 18/09/2019\
-UID000004 BID000005 history 15/07/2020 13/08/2020\
-UID000003 BID000007 economics 28/11/2019 11/12/2019\
-UID000001 BID000002 sports 21/04/2020 19/05/2020\
-UID000003 BID000005 history 24/08/2020 02/10/2020\
-UID000004 BID000007 economics 24/12/2019 17/01/2020\
-UID000003 BID000008 science 02/11/2022 08/11/2022\
-UID000004 BID000008 science 23/11/2022 21/12/2022\
-UID000003 BID000002 sports 03/06/2020 28/06/2020 
-
-
 
  
 #
 _Query_\
-?total_book_borrow\
-?best_book\
-?best_user\
-?number_user_borrow UID000003\
-?list_user_borrow UID000003\
-?sort_category
 
 
 #
 _Output_\
-15\
-------------------------------------------\
-BID000007 economics 4\
-------------------------------------------\
-UID000001 4\
-------------------------------------------\
-4\
-------------------------------------------\
-BID000007\
-BID000005\
-BID000008\
-BID000002\
-------------------------------------------\
-history 2\
-science 4\
-economics 4\
-sports 5\
-------------------------------------------\
-\
+
 END.
