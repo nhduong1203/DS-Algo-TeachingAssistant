@@ -1,6 +1,6 @@
 **Data description**\
 The data includes information about borrow and return books in a library. The information of each book borrow has **the following format**:
-\<UserID>   \<BookID>  \<BookCategory>   \<BorrowDate>   \<ReturnDate>
+\<UserID>   \<BookID>  \<BookCategory>   \<BorrowDate>  
 
 **Details**:
 - **\<UserID>**: id number of the user who borrow the book (which is a string of length from 6 to 20 )
@@ -8,7 +8,7 @@ The data includes information about borrow and return books in a library. The in
 -	**\<BookCategory>**: category of the book (which is a string of length from 6 to 20). Which is one of three category ["history", "science", "economics"].
 -	**\<BorrowDate>**: the day that the user start borrow the book, it is a string under the format DD/MM/YY  (day/ month/ year)
 
-**Example:** UID000015 BID000042 economics 17/01/2021 14/02/2021. Means that: the user **UID000015** started borrowing the **economics** book **BID000042** at 17/01/2021. After that, the user returned the book at 14/02/2021.
+**Example:** UID000015 BID000042 economics 17/01/2021. Means that: the user **UID000015** started borrowing the **economics** book **BID000042** at 17/01/2021.
 
 **Exercise:**
 Write a program that process following queries: 
@@ -34,31 +34,31 @@ The input consists of 2 blocks of information: the data block and the query bloc
 **Example:**
  #
 _Input_\
-UID000002 BID000002 history 19/05/2021
-UID000002 BID000008 economics 05/04/2021
-UID000002 BID000007 history 03/11/2019
-UID000003 BID000005 history 28/10/2020
-UID000003 BID000003 economics 22/01/2019
-UID000003 BID000004 history 09/10/2020
-UID000002 BID000001 economics 16/10/2019
-UID000001 BID000006 science 12/03/2021
-UID000005 BID000007 history 26/11/2019
+UID000002 BID000002 history 19/05/2021\
+UID000002 BID000008 economics 05/04/2021\
+UID000002 BID000007 history 03/11/2019\
+UID000003 BID000005 history 28/10/2020\
+UID000003 BID000003 economics 22/01/2019\
+UID000003 BID000004 history 09/10/2020\
+UID000002 BID000001 economics 16/10/2019\
+UID000001 BID000006 science 12/03/2021\
+UID000005 BID000007 history 26/11/2019\
 UID000005 BID000002 history 17/06/2021
  
 #
 _Query_\
-?total_book_borrow
-?best_book
-?number_user_borrow UID000002
-?user_favourite_category UID000002
+?total_book_borrow\
+?best_book\
+?number_user_borrow UID000002\
+?user_favourite_category UID000002\
 ?total_borrow_period 1/1/2019 1/1/2020
 
 #
 _Output_\
-10
-2
-4
-economics history
+10\
+2\
+4\
+economics history\
 4
 
 END.
