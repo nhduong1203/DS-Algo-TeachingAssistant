@@ -5,7 +5,7 @@ The data includes information about borrow and return books in a library. The in
 **Details**:
 - **\<UserID>**: id number of the user who borrow the book (which is a string of length from 6 to 20 )
 -	**\<BookID>**: id number of the book (which is a string of length from 6 to 20)
--	**\<BookCategory>**: category of the book (which is a string of length from 6 to 20). Which is one of three category ["history", "science", "economics"].
+-	**\<BookCategory>**: category of the book (which is a string of length from 6 to 20). Which is one of three category ["economics", "history", "science"].
 -	**\<BorrowDate>**: the day that the user start borrow the book, it is a string under the format DD/MM/YY  (day/ month/ year)
 
 **Example:** UID000015 BID000042 economics 17/01/2021. Means that: the user **UID000015** started borrowing the **economics** book **BID000042** at 17/01/2021.
