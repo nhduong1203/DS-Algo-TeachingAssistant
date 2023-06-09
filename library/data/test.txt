@@ -16,8 +16,7 @@ UID000003 BID000002 sports 03/06/2020 28/06/2020
 #
 ?total_book_borrow
 ?best_book
-?best_user
 ?number_user_borrow UID000003
-?list_user_borrow UID000003
-?sort_category
+?user_favourite_category UID000003
+?total_borrow_period 1/1/2019 1/1/2020
 #

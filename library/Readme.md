@@ -5,9 +5,8 @@ The data includes information about borrow and return books in a library. The in
 **Details**:
 - **\<UserID>**: id number of the user who borrow the book (which is a string of length from 6 to 20 )
 -	**\<BookID>**: id number of the book (which is a string of length from 6 to 20)
--	**\<BookCategory>**: category of the book (which is a string of length from 6 to 20)
--	**\<BorrowDate>**: the day that the user start borrow the book, it is a string under the format DD:MM:YY  (day: month: year)
--	**\<ReturnDate>**: the day the user return the book, it is a string under the format DD:MM:YY  (day: month: year)
+-	**\<BookCategory>**: category of the book (which is a string of length from 6 to 20). Which is one of three category ["history", "science", "economics"].
+-	**\<BorrowDate>**: the day that the user start borrow the book, it is a string under the format DD/MM/YY  (day/ month/ year)
 
 **Example:** UID000015 BID000042 economics 17/01/2021 14/02/2021. Means that: the user **UID000015** started borrowing the **economics** book **BID000042** at 17/01/2021. After that, the user returned the book at 14/02/2021.
 
@@ -17,8 +16,8 @@ Write a program that process following queries:
 -  ?best_book: Return the book that has been borrow most.
 -  ?best_user: Return the user that borrowed the most book.
 -  ?number_user_borrow \<UserID>: Return the number of book that the user borrowed.
--  ?list_user_borrow \<UserID>: Return list book that the user borrowed.
--  ?sort_category: Return the list of book's category that has been sort in ascending order of times it has been borrowed.
+-  ?user_favourite_category \<UserID>: Return the book's category that user borrow most.
+-  ?total_borrow_period <start-date> <end-date>: Return number of books that have been borrowed between start-date and end-date.
 
   
 **Input (stdin)**
