@@ -29,23 +29,19 @@ int timeStringToDays(char* timeStr) {
 }
 
 void parse_input() {
-    int count = 0;
-    int flag = 0;
     char line[256];
 
     while (1) {
-        
-        char uid[100], bid[100], book_category[100], start_date[100], end_date[100];
+        char uid[100], bid[100], book_category[100], start_date[100];
         scanf("%s", uid);
         if (strcmp(uid, "#") == 0) {
             break;
         }
         total_sub += 1;
-        scanf("%s %s %s %s", bid, book_category, start_date, end_date);
+        scanf("%s %s %s", bid, book_category, start_date);
         int int_uid = atoi(&uid[3]);
         int int_bid = atoi(&bid[3]);
         
-        printf("%d %d\n", int_uid, int_bid);
         if (strcmp("history", book_category) == 0){
             users[0][int_uid]++;
         }
@@ -127,8 +123,6 @@ void parse_input() {
 
 
 int main() {
-
-
     parse_input();
     return 0;
 }

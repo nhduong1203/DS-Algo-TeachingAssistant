@@ -95,13 +95,11 @@ def genData(datafile, lenData,nbUsers, nbBooks):
 
             thisStartDate = futureDays(thisStartDate, gapToStart)
             thisEndDate = futureDays(thisStartDate, gapToStart + gapToEnd)
-            # if(thisBook == "BID000043"):
-            #     print(thisStartDate, thisEndDate)
             bookDate[hashValue] = thisEndDate
             thisCate = saveBookCate[hashValue]
 
         with open(datafile, 'a') as f:
-            f.writelines(f'{thisUser} {thisBook} {thisCate} {thisStartDate} \n')
+            f.writelines(f'{thisUser} {thisBook} {thisCate} {thisStartDate}\n')
 
 
 
@@ -111,5 +109,5 @@ if __name__ == '__main__':
     # genData("./library/data/0.txt", 1000, 20, 100)
     # genData("./library/data/1.txt", 10000, 200, 500)
     # genData("./library/data/2.txt", 100000, 500, 1000)
-    genData("./library/data/3.txt", 1000000, 1000, 2000)
-    #genData("./library/data/test.txt", 15, 5, 10)
+    # genData("./library/data/3.txt", 1000000, 1000, 2000)
+    genData("./library/data/test.txt", 10, 5, 10)
