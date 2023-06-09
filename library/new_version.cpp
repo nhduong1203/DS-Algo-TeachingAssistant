@@ -9,7 +9,7 @@ int total_sub = 0;
 int users[3][10000000] = {0};
 int books[10000000] = {0};
 int days[3000] = {0};
-const char* bookCategory[] = {"history", "science", "economics"};
+const char* bookCategory[] = {"economics", "history", "science"};
 
 
 int findMaxValue(const int books[]) {
@@ -42,10 +42,10 @@ void parse_input() {
         int int_uid = atoi(&uid[3]);
         int int_bid = atoi(&bid[3]);
         
-        if (strcmp("history", book_category) == 0){
+        if (strcmp("economics", book_category) == 0){
             users[0][int_uid]++;
         }
-        else if (strcmp("science", book_category) == 0){
+        else if (strcmp("history", book_category) == 0){
             users[1][int_uid]++;
         }
         else users[2][int_uid]++;
@@ -83,22 +83,21 @@ void parse_input() {
         }
         else if(strcmp(query, "?user_favourite_category") == 0){
             char this_uid[100];
-            char result[100];
             scanf("%s", this_uid);
             int this_int_uid = atoi(&this_uid[3]);
-            int max_id = 0;
             int max = -1;
             for(int i=0; i<3; i++){
                 if(users[i][this_int_uid] > max){
                     max = users[i][this_int_uid];
-                    max_id = i;
                 }
             }
-            if(max_id == 0) strcpy(result, "history");
-            else if(max_id == 1) strcpy(result, "science");
-            else strcpy(result, "economics");
+            for(int i=0; i<3; i++){
+                if(users[i][this_int_uid] == max){
+                    printf("%s ", bookCategory[i]);
+                }
+            }
 
-            printf("%s\n", result);
+            printf("\n");
         }
         else if(strcmp(query, "?total_borrow_period") == 0){
             char start_date[100], end_date[100];

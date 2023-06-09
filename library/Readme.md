@@ -15,7 +15,7 @@ Write a program that process following queries:
 -  ?total_book_borrow: Return the total number of times to borrow books from the library.
 -  ?best_book: Returns the number of borrowings of the most borrowed book.
 -  ?number_user_borrow \<UserID>: Return the number of book that the user borrowed.
--  ?user_favourite_category \<UserID>: Return the book's category that user borrow most.
+-  ?user_favourite_category \<UserID>: Return the book's category that user borrow most. If there is more than 1 category, print it out in lexicographic order on 1 line.
 -  ?total_borrow_period <start-date> <end-date>: Return number of books that have been borrowed between start-date and end-date.
 
   
@@ -53,13 +53,12 @@ _Query_\
 ?user_favourite_category UID000002
 ?total_borrow_period 1/1/2019 1/1/2020
 
-
 #
 _Output_\
 10
 2
 4
-history
+economics history
 4
 
 END.
