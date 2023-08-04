@@ -92,7 +92,6 @@ void parse_input(string datafile, string outputfile) {
             for (int i=0; i<3; i++){
                 r += users[i][this_int_uid];
             }
-            if(r==0) continue;
             outputFile << r << "\n";
         }
         else if(strcmp(query, "?user_favourite_category") == 0){
@@ -105,7 +104,10 @@ void parse_input(string datafile, string outputfile) {
                     max = users[i][this_int_uid];
                 }
             }
-            if(max==0) continue;
+            if (max == 0){
+                outputFile << "0\n";
+                continue;
+            } 
             for(int i=0; i<3; i++){
                 if(users[i][this_int_uid] == max){
                     outputFile <<  bookCategory[i] << " ";
@@ -137,8 +139,8 @@ void parse_input(string datafile, string outputfile) {
 
 
 int main() {
-    string infile = "./total_data/query_4/total_book_4.txt";
-    string outfile = "./result/query_4/total_book_4.txt";
+    string infile = "./total_data/query_4/total_book_0.txt";
+    string outfile = "./result/query_4/total_book_0.txt";
     parse_input(infile, outfile);
     return 0;
 }

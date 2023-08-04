@@ -1,433 +1,1000 @@
+0
 science 
+0
 economics 
+0
 economics 
+0
+0
 history 
+0
 economics 
 economics 
+0
 science 
 economics 
+0
+0
+0
+0
 economics history 
 economics science 
+0
+0
+0
 science 
+0
+0
+0
+0
+0
 science 
+0
+0
+0
+0
+0
 economics 
+0
+0
 science 
+0
+0
+0
+0
+0
+0
 economics 
 history 
 history 
+0
 science 
 economics science 
+0
 economics history 
+0
+0
+0
+0
 economics 
 economics 
+0
 history 
+0
 history 
 economics history 
 history science 
+science 
+0
+0
+economics history science 
+history 
+economics 
+0
+0
+0
+history 
+0
+economics science 
+history 
+0
+0
+0
+economics 
+history 
+science 
+0
+history 
+0
+0
+0
+economics 
+history 
+economics 
+economics science 
+0
+science 
+economics science 
+economics 
+0
+0
+economics science 
+science 
+science 
+0
+history science 
+economics history science 
+economics science 
+science 
+0
+0
+economics history 
+0
+history 
+science 
+0
+0
+0
+0
+history 
+economics 
+economics 
+0
+0
+economics science 
+economics 
+0
+history 
+0
+0
+0
+history 
+0
+economics 
+economics 
+economics 
+history 
+0
+0
+0
+0
+0
+0
+economics 
+science 
+0
+0
+0
+0
+0
+economics 
+0
+history 
+economics 
+0
+0
+economics history science 
+history 
+0
+0
+0
+history science 
+history 
+0
+science 
+0
+science 
+0
+economics 
+history 
+0
+0
+0
+history 
+economics 
+0
+history science 
+0
+0
+history science 
+0
+0
+0
+economics science 
+0
+history 
+0
+economics history 
+science 
+economics science 
+0
+history science 
+0
+history 
+economics 
+0
+history 
+0
+0
+economics 
+science 
+economics 
+0
+0
+0
+history science 
+0
+science 
+0
+0
+0
+0
+history science 
+0
+0
+history 
+science 
+0
+0
+science 
+history 
+0
+economics history 
+0
+0
+0
+history 
+0
+0
+0
+0
+0
+0
+history 
+history science 
+0
+0
+0
+economics science 
+science 
+0
+0
+economics science 
+history science 
+0
+0
+economics 
+0
+0
+0
+0
+0
+0
+history 
+0
+0
+0
+economics 
+0
+0
+0
+history 
+0
+economics 
+economics history 
+0
+0
+history science 
+science 
+history 
+0
+0
+0
+0
+0
+economics history 
+0
+science 
+history 
+0
+economics 
+science 
+0
+science 
+0
+0
+0
+economics history 
+history 
+0
+0
+0
+science 
+0
+0
+history science 
+0
+science 
+0
+science 
+economics 
+0
+0
+0
+economics 
+economics history 
+0
+history 
+0
+0
+0
+history 
+history science 
+0
+0
+0
+0
+0
+history science 
+0
+economics 
+science 
+0
+economics history 
+0
+0
+economics 
+0
+0
+0
+history 
+0
+0
+0
+0
+economics 
+history 
+history 
+science 
+history 
+0
+0
+science 
 science 
 economics history science 
 history 
 economics 
-history 
-economics science 
-history 
-economics 
-history 
-science 
-history 
-economics 
-history 
-economics 
-economics science 
-science 
-economics science 
-economics 
-economics science 
-science 
-science 
+0
+economics history science 
+0
 history science 
+0
+science 
+0
+economics science 
+0
+0
+0
+0
+0
+history 
+0
+0
+0
+0
+science 
+0
 economics history science 
 economics science 
-science 
-economics history 
-history 
-science 
-history 
-economics 
-economics 
-economics science 
-economics 
-history 
-history 
-economics 
-economics 
-economics 
-history 
-economics 
-science 
-economics 
-history 
-economics 
-economics history science 
-history 
+0
+0
 history science 
-history 
-science 
-science 
+0
+0
+0
+0
 economics 
-history 
-history 
-economics 
-history science 
-history science 
-economics science 
-history 
-economics history 
-science 
-economics science 
-history science 
-history 
-economics 
-history 
-economics 
-science 
-economics 
-history science 
-science 
-history science 
-history 
-science 
-science 
-history 
-economics history 
-history 
-history 
-history science 
-economics science 
-science 
-economics science 
-history science 
-economics 
-history 
-economics 
-history 
-economics 
-economics history 
-history science 
-science 
-history 
-economics history 
-science 
-history 
-economics 
-science 
-science 
-economics history 
-history 
-science 
-history science 
-science 
-science 
-economics 
-economics 
-economics history 
-history 
-history 
-history science 
-history science 
-economics 
-science 
+0
+0
+0
 economics history 
 economics 
-history 
-economics 
-history 
-history 
-science 
-history 
-science 
-science 
-economics history science 
-history 
-economics 
-economics history science 
-history science 
-science 
-economics science 
-history 
-science 
-economics history science 
-economics science 
-history science 
-economics 
-economics history 
-economics 
+0
+0
+0
+0
 economics history 
 economics science 
 economics history science 
+0
 history science 
+0
 science 
 science 
+0
 science 
+0
 science 
 economics 
 economics history 
+0
 history 
+0
+0
+0
+0
+0
 science 
+0
+history 
+0
+0
+0
+0
+economics 
+0
+0
+economics 
+science 
+0
+0
+science 
+0
+0
+0
 history 
 economics 
-economics 
-science 
-science 
-history 
-economics 
+0
+0
 economics history 
+0
+0
+0
 economics history science 
 history 
+0
 history 
+0
 economics history 
 economics history science 
 science 
+0
+0
+history 
+0
+0
+economics 
+0
+0
+economics 
+economics 
 history 
 economics 
-economics 
-economics 
-history 
-economics 
+0
+0
 history science 
+0
 economics 
+0
+0
+0
 economics science 
 economics 
+0
 economics 
+0
 science 
 science 
+0
+0
+0
+0
 history science 
+0
 science 
+0
+0
+0
 history 
 science 
+0
 economics science 
 science 
 economics 
 economics 
+0
+0
 science 
+0
 history science 
 economics 
+0
 history 
 history science 
+0
 economics 
 economics 
+0
+0
+0
+0
+0
+0
+0
 history 
 economics 
+0
 science 
+0
 science 
+0
+0
 science 
 economics history 
 history 
+0
 history 
+0
 economics history science 
 economics 
+0
 economics 
+0
+0
+0
+0
 history 
+0
 history 
+0
+0
+0
+0
+0
+0
+0
+0
+0
+science 
+0
+economics 
+0
+0
+science 
+0
 science 
 economics 
-science 
-science 
+economics 
+0
 economics 
 economics 
-economics 
-economics 
+0
 economics science 
+0
+0
+0
 economics 
 economics 
+0
 science 
 economics 
+0
+0
+0
 economics history 
+0
+0
+history 
+0
+0
+0
+history science 
+0
+0
+0
+history 
+0
+economics 
 history 
 history science 
-history 
-economics 
-history 
-history science 
+0
 science 
+0
+0
+0
+0
 history 
 economics 
+0
 science 
 science 
 economics science 
 economics 
+0
+0
+0
+0
+0
 economics 
+0
+0
 economics science 
+0
 science 
 science 
+0
 science 
+0
+0
+0
 economics history 
+0
+0
 economics 
+0
+0
 economics 
 economics history science 
 history 
 economics 
+0
 economics 
 economics 
+0
+0
+0
 economics 
+0
 history science 
 history 
+0
 economics 
+0
+0
 history science 
+0
 economics 
+0
+0
+0
 economics history 
+0
 history 
+0
+0
+0
 economics history 
 economics history 
 economics history 
+0
 economics 
 economics 
+0
 economics 
 science 
 history 
 history science 
+0
 history 
+0
 science 
 science 
+0
+0
 economics 
 science 
 history 
+0
+0
+0
+0
 economics science 
+0
+0
 economics 
 science 
+0
 science 
+0
+0
+0
+0
 science 
+0
+0
+0
 economics history science 
 science 
 economics 
+0
 economics history science 
+0
+0
 economics 
 economics 
+0
 economics science 
+0
+0
 history 
+0
 economics history 
 history 
 economics science 
+0
+0
+0
+0
+0
 science 
 science 
+0
+0
 science 
 economics 
+0
+0
+0
 science 
 science 
 history 
 economics history 
+0
+0
+0
 history 
 science 
 history 
 science 
+0
+0
 history 
+0
+0
 history science 
 economics history science 
+0
+0
+0
+0
+0
+0
+0
+0
+0
 economics 
 science 
+0
+0
+0
 economics 
+0
 economics science 
 economics 
+0
 history 
 economics 
 economics 
 economics history 
+0
+0
+0
+0
 history 
 economics 
+0
 history science 
+0
+0
+0
 history 
+0
 economics 
+0
 history 
 economics science 
+0
 science 
+0
+0
 history science 
+0
 history science 
 history 
+0
+0
+0
 economics 
 science 
 economics 
 science 
+0
 history 
+0
+0
+0
 economics history science 
+0
+0
+0
+0
 economics 
 history 
+0
+0
+0
 science 
 history 
 science 
 history 
+0
+0
 economics science 
+0
+0
+0
 economics science 
+0
 economics history science 
 history science 
+0
+0
+0
+0
+0
+science 
+0
+science 
+0
+history 
+0
+history science 
+0
+0
+0
+economics 
+0
+history 
+0
+economics history science 
+0
+economics 
+0
+0
+0
+science 
+0
+0
+0
+0
+economics 
+economics science 
+economics science 
+0
+0
+0
+economics history science 
+0
+0
+science 
+0
 science 
 science 
+economics 
+economics 
+history science 
+0
+history 
+0
+0
+economics 
+economics history 
+economics history 
+0
+0
+0
+0
+0
+economics 
+0
+0
+0
+0
+economics science 
+economics 
+0
 history 
 history science 
+0
 economics 
 history 
-economics history science 
 economics 
+economics 
+economics 
+0
+0
+economics 
+economics 
+0
+0
+0
+0
+0
+0
+0
 science 
-economics 
+0
+0
+0
+science 
+economics history 
+0
+0
+0
+economics history 
+history 
+0
+science 
+0
+0
+0
+economics history 
+0
+0
+0
+0
+0
 economics science 
-economics science 
 economics history science 
-science 
-science 
-science 
-economics 
-economics 
+0
+0
+0
+0
+0
 history science 
-history 
+0
+0
+0
 economics 
+0
 economics history 
+0
+economics 
+history 
+0
+0
+economics science 
+0
+0
+0
+0
+0
+0
+0
+economics 
+history 
 economics history 
+0
 economics 
 economics science 
+0
+0
+0
+0
+0
+0
 economics 
-history 
-history science 
-economics 
-history 
-economics 
-economics 
-economics 
-economics 
-economics 
-science 
-science 
-economics history 
 economics history 
 history 
-science 
-economics history 
+0
+0
 economics science 
+0
+science 
+0
+0
+economics 
+0
+science 
+0
+0
 economics history science 
-history science 
-economics 
-economics history 
-economics 
+0
 history 
 economics science 
+0
+0
+history 
+history 
+history 
+0
+0
+0
 economics 
 history 
-economics history 
-economics 
-economics science 
-economics 
-economics history 
-history 
-economics science 
-science 
-economics 
-science 
-economics history science 
-history 
-economics science 
-history 
-history 
-history 
-economics 
-history 
+0
+0
+0
+0
 science 
 history 
