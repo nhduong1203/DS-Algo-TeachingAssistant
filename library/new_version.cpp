@@ -1,9 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <sstream>
+
+
+
+using namespace std;
 
 #define MAX_LINES 1000
 #define size 10e6
+
+
 
 int total_sub = 0;
 int users[3][10000000] = {0};
@@ -28,17 +38,19 @@ int timeStringToDays(char* timeStr) {
     return (day - 1) + 31 * (month - 1) + 372 * (year - 2019);
 }
 
-void parse_input() {
-    char line[256];
+void parse_input(string datafile, string outputfile) {
+    std::ifstream file(datafile); // Open file
+    std::string line;
+    std::ofstream outputFile(outputfile);
 
-    while (1) {
+    while (std::getline(file, line)) {
         char uid[100], bid[100], book_category[100], start_date[100];
-        scanf("%s", uid);
+        std::istringstream iss(line);
+        iss >> uid >> bid >> book_category >> start_date;
         if (strcmp(uid, "#") == 0) {
             break;
         }
         total_sub += 1;
-        scanf("%s %s %s", bid, book_category, start_date);
         int int_uid = atoi(&uid[3]);
         int int_bid = atoi(&bid[3]);
         
@@ -58,32 +70,34 @@ void parse_input() {
         days[i] += days[i-1];
     }
 
-    while(1){
+    while(std::getline(file, line)){
         char query[100];
-        scanf("%s", query);
+        std::istringstream iss(line);
+        iss >> query; 
         if (strcmp(query, "#") == 0) {
             break;
         }
         if (strcmp("?total_book_borrow", query)==0){
-            printf("%d\n", total_sub);
+            outputFile << total_sub << "\n";
         }
         else if(strcmp(query, "?best_book") == 0){
             int r = findMaxValue(books);
-            printf("%d\n", r);
+            outputFile << r << "\n";
         }
         else if(strcmp(query, "?number_user_borrow") == 0){
             char this_uid[100];
-            scanf("%s", this_uid);
+            iss >> this_uid;
             int this_int_uid = atoi(&this_uid[3]);
             int r = 0;
             for (int i=0; i<3; i++){
                 r += users[i][this_int_uid];
             }
-            printf("%d\n", r);
+            if(r==0) continue;
+            outputFile << r << "\n";
         }
         else if(strcmp(query, "?user_favourite_category") == 0){
             char this_uid[100];
-            scanf("%s", this_uid);
+            iss >> this_uid;
             int this_int_uid = atoi(&this_uid[3]);
             int max = -1;
             for(int i=0; i<3; i++){
@@ -91,26 +105,27 @@ void parse_input() {
                     max = users[i][this_int_uid];
                 }
             }
+            if(max==0) continue;
             for(int i=0; i<3; i++){
                 if(users[i][this_int_uid] == max){
-                    printf("%s ", bookCategory[i]);
+                    outputFile <<  bookCategory[i] << " ";
                 }
             }
+            outputFile << "\n";
 
-            printf("\n");
         }
         else if(strcmp(query, "?total_borrow_period") == 0){
             char start_date[100], end_date[100];
-            scanf("%s %s", start_date, end_date);
+            iss >> start_date >> end_date;
             int int_start_day = timeStringToDays(start_date);
             int int_end_day = timeStringToDays(end_date);
             
-            if(int_end_day < int_start_day) printf("0\n");
+            if(int_end_day < int_start_day) outputFile << "0\n";
             else{
                 int r;
                 if(int_start_day == 0) r = days[int_end_day];
                 else r = days[int_end_day] - days[int_start_day - 1];
-                printf("%d\n", r);
+                outputFile << r << "\n";
             }
         }
 
@@ -122,6 +137,8 @@ void parse_input() {
 
 
 int main() {
-    parse_input();
+    string infile = "./total_data/query_4/total_book_4.txt";
+    string outfile = "./result/query_4/total_book_4.txt";
+    parse_input(infile, outfile);
     return 0;
 }

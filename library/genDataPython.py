@@ -7,7 +7,7 @@ import os
 
 # print(future_date.strftime('%d/%m/%Y'))
 
-M = 2000
+M = 100000
 
 def futureDays(str, d):
     splitStr = str.split('/')
@@ -24,7 +24,11 @@ def dateConvert(day):
         i -= 1
     return s
 
-
+def randomDate():
+    day = random.randint(1, 28)
+    month = random.randint(1, 12)
+    year = random.randint(2019, 2021)
+    return dateConvert(day) + "/" + dateConvert(month) + "/" + str(year)
 
 def convertString(n, length, type):
     s = '0' * length
@@ -42,12 +46,6 @@ def convertString(n, length, type):
         s = 'U' + s[1:]
 
     return s
-
-def randomDate():
-    day = random.randint(1, 28)
-    month = random.randint(1, 12)
-    year = random.randint(2019, 2022)
-    return dateConvert(day) + "/" + dateConvert(month) + "/" + str(year)
 
 def hashFunction(s):
     hash_value = 0
@@ -70,19 +68,21 @@ def genData(datafile, lenData,nbUsers, nbBooks):
     for i in range(lenData):
         thisUser = random.randint(1, nbUsers)
         thisBook = random.randint(1, nbBooks)
+
+        hashValue = thisBook
         
         thisUser = convertString(thisUser, 9, "user")
         thisBook = convertString(thisBook, 9, "book")
         
 
-        hashValue = hashFunction(thisBook)
+        
         if(bookDate[hashValue] == None):
             thisCate = random.randint(1, lenCategory) - 1
             thisCate = bookCategory[thisCate]
             saveBookCate[hashValue] = thisCate
 
             thisStartDate = randomDate()
-            dayGap = random.randint(1, 30)
+            dayGap = random.randint(1, 15)
             thisEndDate = futureDays(thisStartDate, dayGap)
             bookDate[hashValue] = thisEndDate
 
@@ -106,8 +106,13 @@ def genData(datafile, lenData,nbUsers, nbBooks):
 
 if __name__ == '__main__':
     #print(os.listdir())
-    # genData("./library/data/0.txt", 1000, 20, 100)
+    
+    # genData("./library/data/total_book_2.txt", 1000, 100, 250)
+    # genData("./library/data/total_book_1.txt", 100, 50, 100)
     # genData("./library/data/1.txt", 10000, 200, 500)
     # genData("./library/data/2.txt", 100000, 500, 1000)
     # genData("./library/data/3.txt", 1000000, 1000, 2000)
-    genData("./library/data/test.txt", 10, 5, 10)
+    # genData(datafile, lenData,nbUsers, nbBooks):
+    genData("./library/data/total_book_3.txt", 10000, 750, 1000)
+    
+

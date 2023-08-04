@@ -273,14 +273,8 @@ void solveQuery(string datafile, int checkpoint){
 }
 
 int main(){
-    // string line = "UID000003 BID000002 sports 03/06/2020 28/06/2020";
-    // vector<std::string> data = extractData(line);
-    // for(int i=0; i<data.size(); i++){
-    //     cout << data[i] <<endl;
-    // }
+    
     string datafile = "./data/test.txt";
     int checkpoint = constructData(datafile);
-    // cout <<checkpoint;
     solveQuery(datafile, checkpoint);
-
 }

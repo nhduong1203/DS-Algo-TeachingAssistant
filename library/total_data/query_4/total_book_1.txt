@@ -1,0 +1,202 @@
+UID000018 BID000005 science 17/12/2021
+UID000007 BID000029 science 14/08/2021
+UID000020 BID000036 economics 07/11/2020
+UID000017 BID000037 economics 11/04/2019
+UID000012 BID000042 science 16/02/2019
+UID000001 BID000027 science 01/04/2019
+UID000011 BID000030 history 05/05/2021
+UID000017 BID000037 economics 01/05/2019
+UID000002 BID000026 science 01/02/2019
+UID000014 BID000050 history 19/05/2019
+UID000008 BID000029 science 29/08/2021
+UID000003 BID000021 economics 16/07/2020
+UID000002 BID000017 economics 01/05/2020
+UID000012 BID000007 economics 05/03/2019
+UID000010 BID000049 history 17/09/2020
+UID000007 BID000048 science 15/08/2020
+UID000014 BID000040 economics 23/02/2019
+UID000008 BID000020 economics 20/12/2021
+UID000018 BID000048 science 28/08/2020
+UID000019 BID000046 economics 22/01/2021
+UID000019 BID000011 science 11/12/2019
+UID000018 BID000017 economics 20/05/2020
+UID000003 BID000032 economics 24/10/2020
+UID000013 BID000035 science 12/05/2020
+UID000011 BID000039 history 02/07/2020
+UID000011 BID000023 economics 09/07/2020
+UID000006 BID000022 science 11/12/2019
+UID000005 BID000023 economics 29/07/2020
+UID000011 BID000006 economics 15/04/2020
+UID000010 BID000011 science 26/12/2019
+UID000003 BID000029 science 20/10/2021
+UID000010 BID000046 economics 29/01/2021
+UID000013 BID000042 science 10/03/2019
+UID000001 BID000026 science 12/02/2019
+UID000004 BID000039 history 18/07/2020
+UID000018 BID000045 science 22/09/2021
+UID000019 BID000045 science 16/10/2021
+UID000017 BID000039 history 05/08/2020
+UID000006 BID000033 history 20/07/2020
+UID000013 BID000041 science 27/07/2020
+UID000002 BID000038 science 13/05/2020
+UID000013 BID000036 economics 15/11/2020
+UID000005 BID000042 science 21/04/2019
+UID000008 BID000025 economics 05/12/2021
+UID000015 BID000021 economics 25/07/2020
+UID000003 BID000007 economics 18/03/2019
+UID000010 BID000005 science 07/01/2022
+UID000008 BID000029 science 13/11/2021
+UID000017 BID000001 science 07/06/2021
+UID000011 BID000048 science 26/09/2020
+UID000014 BID000012 science 05/01/2019
+UID000009 BID000016 economics 16/02/2019
+UID000005 BID000043 science 21/08/2020
+UID000020 BID000046 economics 25/02/2021
+UID000008 BID000020 economics 18/01/2022
+UID000010 BID000028 history 26/09/2021
+UID000011 BID000032 economics 05/11/2020
+UID000014 BID000018 history 24/11/2019
+UID000013 BID000017 economics 16/06/2020
+UID000006 BID000042 science 15/05/2019
+UID000016 BID000021 economics 07/08/2020
+UID000006 BID000035 science 28/05/2020
+UID000007 BID000035 science 21/07/2020
+UID000009 BID000042 science 07/06/2019
+UID000014 BID000009 science 23/09/2020
+UID000008 BID000046 economics 22/03/2021
+UID000009 BID000036 economics 16/12/2020
+UID000014 BID000049 history 11/10/2020
+UID000012 BID000015 science 24/07/2020
+UID000019 BID000033 history 03/08/2020
+UID000006 BID000014 history 14/01/2020
+UID000007 BID000001 science 18/06/2021
+UID000006 BID000043 science 14/09/2020
+UID000017 BID000006 economics 01/05/2020
+UID000010 BID000049 history 17/11/2020
+UID000013 BID000025 economics 18/12/2021
+UID000001 BID000025 economics 11/01/2022
+UID000012 BID000025 economics 12/02/2022
+UID000004 BID000020 economics 15/02/2022
+UID000010 BID000009 science 12/10/2020
+UID000015 BID000029 science 20/12/2021
+UID000017 BID000048 science 01/11/2020
+UID000020 BID000016 economics 08/03/2019
+UID000016 BID000023 economics 24/08/2020
+UID000006 BID000034 science 07/03/2020
+UID000007 BID000003 history 06/12/2019
+UID000001 BID000050 history 04/06/2019
+UID000013 BID000016 economics 21/03/2019
+UID000018 BID000011 science 30/01/2020
+UID000017 BID000027 science 26/04/2019
+UID000018 BID000010 science 03/03/2020
+UID000006 BID000007 economics 15/04/2019
+UID000001 BID000023 economics 03/09/2020
+UID000003 BID000023 economics 28/09/2020
+UID000015 BID000020 economics 18/03/2022
+UID000019 BID000036 economics 09/01/2021
+UID000019 BID000016 economics 20/04/2019
+UID000019 BID000037 economics 15/06/2019
+UID000003 BID000043 science 02/10/2020
+UID000001 BID000041 science 19/08/2020
+#
+?user_favourite_category UID000095
+?user_favourite_category UID000087
+?user_favourite_category UID000008
+?user_favourite_category UID000010
+?user_favourite_category UID000043
+?user_favourite_category UID000062
+?user_favourite_category UID000064
+?user_favourite_category UID000081
+?user_favourite_category UID000071
+?user_favourite_category UID000054
+?user_favourite_category UID000073
+?user_favourite_category UID000044
+?user_favourite_category UID000066
+?user_favourite_category UID000078
+?user_favourite_category UID000038
+?user_favourite_category UID000059
+?user_favourite_category UID000009
+?user_favourite_category UID000004
+?user_favourite_category UID000003
+?user_favourite_category UID000029
+?user_favourite_category UID000076
+?user_favourite_category UID000094
+?user_favourite_category UID000039
+?user_favourite_category UID000011
+?user_favourite_category UID000072
+?user_favourite_category UID000067
+?user_favourite_category UID000057
+?user_favourite_category UID000052
+?user_favourite_category UID000096
+?user_favourite_category UID000016
+?user_favourite_category UID000086
+?user_favourite_category UID000049
+?user_favourite_category UID000084
+?user_favourite_category UID000047
+?user_favourite_category UID000040
+?user_favourite_category UID000088
+?user_favourite_category UID000006
+?user_favourite_category UID000024
+?user_favourite_category UID000082
+?user_favourite_category UID000042
+?user_favourite_category UID000033
+?user_favourite_category UID000093
+?user_favourite_category UID000019
+?user_favourite_category UID000065
+?user_favourite_category UID000036
+?user_favourite_category UID000055
+?user_favourite_category UID000045
+?user_favourite_category UID000068
+?user_favourite_category UID000056
+?user_favourite_category UID000100
+?user_favourite_category UID000079
+?user_favourite_category UID000015
+?user_favourite_category UID000021
+?user_favourite_category UID000074
+?user_favourite_category UID000026
+?user_favourite_category UID000032
+?user_favourite_category UID000023
+?user_favourite_category UID000013
+?user_favourite_category UID000001
+?user_favourite_category UID000083
+?user_favourite_category UID000099
+?user_favourite_category UID000053
+?user_favourite_category UID000018
+?user_favourite_category UID000046
+?user_favourite_category UID000034
+?user_favourite_category UID000075
+?user_favourite_category UID000002
+?user_favourite_category UID000035
+?user_favourite_category UID000025
+?user_favourite_category UID000037
+?user_favourite_category UID000070
+?user_favourite_category UID000017
+?user_favourite_category UID000030
+?user_favourite_category UID000050
+?user_favourite_category UID000089
+?user_favourite_category UID000028
+?user_favourite_category UID000058
+?user_favourite_category UID000061
+?user_favourite_category UID000063
+?user_favourite_category UID000091
+?user_favourite_category UID000080
+?user_favourite_category UID000007
+?user_favourite_category UID000097
+?user_favourite_category UID000098
+?user_favourite_category UID000005
+?user_favourite_category UID000048
+?user_favourite_category UID000027
+?user_favourite_category UID000014
+?user_favourite_category UID000085
+?user_favourite_category UID000092
+?user_favourite_category UID000051
+?user_favourite_category UID000060
+?user_favourite_category UID000020
+?user_favourite_category UID000077
+?user_favourite_category UID000041
+?user_favourite_category UID000090
+?user_favourite_category UID000031
+?user_favourite_category UID000012
+?user_favourite_category UID000069
+?user_favourite_category UID000022
+#

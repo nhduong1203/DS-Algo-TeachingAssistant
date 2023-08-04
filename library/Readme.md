@@ -49,8 +49,8 @@ UID000005 BID000002 history 17/06/2021
 _Query_\
 ?total_book_borrow
 ?best_book
-?number_user_borrow UID000002
-?user_favourite_category UID000002
+?number_user_borrow UID00002
+?user_favourite_category UID00002
 ?total_borrow_period 1/1/2019 1/1/2020
 
 #

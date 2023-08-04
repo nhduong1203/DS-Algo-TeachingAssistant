@@ -1,0 +1,202 @@
+UID000018 BID000005 science 17/12/2021
+UID000007 BID000029 science 14/08/2021
+UID000020 BID000036 economics 07/11/2020
+UID000017 BID000037 economics 11/04/2019
+UID000012 BID000042 science 16/02/2019
+UID000001 BID000027 science 01/04/2019
+UID000011 BID000030 history 05/05/2021
+UID000017 BID000037 economics 01/05/2019
+UID000002 BID000026 science 01/02/2019
+UID000014 BID000050 history 19/05/2019
+UID000008 BID000029 science 29/08/2021
+UID000003 BID000021 economics 16/07/2020
+UID000002 BID000017 economics 01/05/2020
+UID000012 BID000007 economics 05/03/2019
+UID000010 BID000049 history 17/09/2020
+UID000007 BID000048 science 15/08/2020
+UID000014 BID000040 economics 23/02/2019
+UID000008 BID000020 economics 20/12/2021
+UID000018 BID000048 science 28/08/2020
+UID000019 BID000046 economics 22/01/2021
+UID000019 BID000011 science 11/12/2019
+UID000018 BID000017 economics 20/05/2020
+UID000003 BID000032 economics 24/10/2020
+UID000013 BID000035 science 12/05/2020
+UID000011 BID000039 history 02/07/2020
+UID000011 BID000023 economics 09/07/2020
+UID000006 BID000022 science 11/12/2019
+UID000005 BID000023 economics 29/07/2020
+UID000011 BID000006 economics 15/04/2020
+UID000010 BID000011 science 26/12/2019
+UID000003 BID000029 science 20/10/2021
+UID000010 BID000046 economics 29/01/2021
+UID000013 BID000042 science 10/03/2019
+UID000001 BID000026 science 12/02/2019
+UID000004 BID000039 history 18/07/2020
+UID000018 BID000045 science 22/09/2021
+UID000019 BID000045 science 16/10/2021
+UID000017 BID000039 history 05/08/2020
+UID000006 BID000033 history 20/07/2020
+UID000013 BID000041 science 27/07/2020
+UID000002 BID000038 science 13/05/2020
+UID000013 BID000036 economics 15/11/2020
+UID000005 BID000042 science 21/04/2019
+UID000008 BID000025 economics 05/12/2021
+UID000015 BID000021 economics 25/07/2020
+UID000003 BID000007 economics 18/03/2019
+UID000010 BID000005 science 07/01/2022
+UID000008 BID000029 science 13/11/2021
+UID000017 BID000001 science 07/06/2021
+UID000011 BID000048 science 26/09/2020
+UID000014 BID000012 science 05/01/2019
+UID000009 BID000016 economics 16/02/2019
+UID000005 BID000043 science 21/08/2020
+UID000020 BID000046 economics 25/02/2021
+UID000008 BID000020 economics 18/01/2022
+UID000010 BID000028 history 26/09/2021
+UID000011 BID000032 economics 05/11/2020
+UID000014 BID000018 history 24/11/2019
+UID000013 BID000017 economics 16/06/2020
+UID000006 BID000042 science 15/05/2019
+UID000016 BID000021 economics 07/08/2020
+UID000006 BID000035 science 28/05/2020
+UID000007 BID000035 science 21/07/2020
+UID000009 BID000042 science 07/06/2019
+UID000014 BID000009 science 23/09/2020
+UID000008 BID000046 economics 22/03/2021
+UID000009 BID000036 economics 16/12/2020
+UID000014 BID000049 history 11/10/2020
+UID000012 BID000015 science 24/07/2020
+UID000019 BID000033 history 03/08/2020
+UID000006 BID000014 history 14/01/2020
+UID000007 BID000001 science 18/06/2021
+UID000006 BID000043 science 14/09/2020
+UID000017 BID000006 economics 01/05/2020
+UID000010 BID000049 history 17/11/2020
+UID000013 BID000025 economics 18/12/2021
+UID000001 BID000025 economics 11/01/2022
+UID000012 BID000025 economics 12/02/2022
+UID000004 BID000020 economics 15/02/2022
+UID000010 BID000009 science 12/10/2020
+UID000015 BID000029 science 20/12/2021
+UID000017 BID000048 science 01/11/2020
+UID000020 BID000016 economics 08/03/2019
+UID000016 BID000023 economics 24/08/2020
+UID000006 BID000034 science 07/03/2020
+UID000007 BID000003 history 06/12/2019
+UID000001 BID000050 history 04/06/2019
+UID000013 BID000016 economics 21/03/2019
+UID000018 BID000011 science 30/01/2020
+UID000017 BID000027 science 26/04/2019
+UID000018 BID000010 science 03/03/2020
+UID000006 BID000007 economics 15/04/2019
+UID000001 BID000023 economics 03/09/2020
+UID000003 BID000023 economics 28/09/2020
+UID000015 BID000020 economics 18/03/2022
+UID000019 BID000036 economics 09/01/2021
+UID000019 BID000016 economics 20/04/2019
+UID000019 BID000037 economics 15/06/2019
+UID000003 BID000043 science 02/10/2020
+UID000001 BID000041 science 19/08/2020
+#
+?total_borrow_period 23/05/2020 13/02/2021
+?total_borrow_period 11/09/2021 21/02/2022
+?total_borrow_period 04/10/2020 28/03/2021
+?total_borrow_period 07/02/2019 28/05/2019
+?total_borrow_period 09/03/2021 09/11/2021
+?total_borrow_period 05/12/2021 20/10/2022
+?total_borrow_period 03/07/2021 15/01/2022
+?total_borrow_period 09/04/2020 04/10/2020
+?total_borrow_period 19/03/2019 08/10/2019
+?total_borrow_period 27/01/2021 12/08/2021
+?total_borrow_period 23/12/2019 31/08/2020
+?total_borrow_period 25/08/2021 19/11/2021
+?total_borrow_period 07/01/2020 11/05/2020
+?total_borrow_period 03/01/2021 10/08/2021
+?total_borrow_period 05/07/2021 14/03/2022
+?total_borrow_period 23/09/2021 07/09/2022
+?total_borrow_period 26/01/2021 10/06/2021
+?total_borrow_period 17/08/2019 12/06/2020
+?total_borrow_period 03/09/2019 18/11/2019
+?total_borrow_period 10/04/2020 14/01/2021
+?total_borrow_period 08/08/2019 26/10/2019
+?total_borrow_period 01/04/2021 15/06/2021
+?total_borrow_period 07/08/2021 26/01/2022
+?total_borrow_period 26/09/2020 06/08/2021
+?total_borrow_period 09/05/2021 20/07/2021
+?total_borrow_period 18/07/2019 12/02/2020
+?total_borrow_period 13/07/2020 05/01/2021
+?total_borrow_period 19/12/2021 27/11/2022
+?total_borrow_period 06/08/2019 20/02/2020
+?total_borrow_period 09/05/2019 03/04/2020
+?total_borrow_period 18/08/2021 09/01/2022
+?total_borrow_period 01/02/2021 15/12/2021
+?total_borrow_period 02/02/2020 05/11/2020
+?total_borrow_period 22/01/2019 21/04/2019
+?total_borrow_period 13/07/2021 07/06/2022
+?total_borrow_period 01/10/2019 23/08/2020
+?total_borrow_period 02/06/2021 30/05/2022
+?total_borrow_period 25/06/2021 25/03/2022
+?total_borrow_period 16/06/2019 18/11/2019
+?total_borrow_period 06/11/2020 16/07/2021
+?total_borrow_period 15/04/2020 09/06/2020
+?total_borrow_period 28/08/2020 23/05/2021
+?total_borrow_period 27/07/2019 14/03/2020
+?total_borrow_period 04/01/2021 22/10/2021
+?total_borrow_period 22/05/2020 31/10/2020
+?total_borrow_period 10/09/2021 30/03/2022
+?total_borrow_period 18/08/2021 06/07/2022
+?total_borrow_period 16/08/2020 30/05/2021
+?total_borrow_period 17/01/2019 04/09/2019
+?total_borrow_period 24/12/2021 23/12/2022
+?total_borrow_period 02/01/2020 03/03/2020
+?total_borrow_period 10/11/2021 23/01/2022
+?total_borrow_period 03/06/2021 03/05/2022
+?total_borrow_period 03/07/2019 05/03/2020
+?total_borrow_period 20/02/2019 14/08/2019
+?total_borrow_period 19/12/2020 16/03/2021
+?total_borrow_period 20/01/2020 22/12/2020
+?total_borrow_period 12/02/2021 19/09/2021
+?total_borrow_period 13/07/2021 18/10/2021
+?total_borrow_period 15/03/2021 09/09/2021
+?total_borrow_period 09/05/2019 22/12/2019
+?total_borrow_period 12/04/2019 08/10/2019
+?total_borrow_period 26/01/2020 24/07/2020
+?total_borrow_period 06/01/2020 24/03/2020
+?total_borrow_period 15/12/2021 23/05/2022
+?total_borrow_period 27/04/2021 23/12/2021
+?total_borrow_period 24/10/2020 12/08/2021
+?total_borrow_period 12/07/2020 05/07/2021
+?total_borrow_period 08/06/2019 20/10/2019
+?total_borrow_period 05/03/2020 29/08/2020
+?total_borrow_period 07/02/2021 05/02/2022
+?total_borrow_period 12/05/2019 27/03/2020
+?total_borrow_period 21/02/2019 04/12/2019
+?total_borrow_period 09/09/2020 10/03/2021
+?total_borrow_period 23/01/2020 11/07/2020
+?total_borrow_period 08/06/2021 04/11/2021
+?total_borrow_period 16/06/2021 15/02/2022
+?total_borrow_period 06/04/2021 21/02/2022
+?total_borrow_period 03/03/2019 24/01/2020
+?total_borrow_period 21/08/2019 12/07/2020
+?total_borrow_period 08/07/2019 01/02/2020
+?total_borrow_period 11/12/2020 09/08/2021
+?total_borrow_period 03/12/2021 30/09/2022
+?total_borrow_period 16/02/2021 08/09/2021
+?total_borrow_period 21/03/2020 21/07/2020
+?total_borrow_period 18/08/2020 14/05/2021
+?total_borrow_period 13/07/2019 06/01/2020
+?total_borrow_period 23/05/2021 09/01/2022
+?total_borrow_period 05/02/2020 04/04/2020
+?total_borrow_period 02/07/2020 24/01/2021
+?total_borrow_period 02/05/2019 28/07/2019
+?total_borrow_period 21/12/2019 17/06/2020
+?total_borrow_period 26/05/2020 01/08/2020
+?total_borrow_period 15/05/2019 03/12/2019
+?total_borrow_period 23/11/2021 05/09/2022
+?total_borrow_period 18/08/2021 06/02/2022
+?total_borrow_period 04/06/2021 13/08/2021
+?total_borrow_period 17/07/2019 22/06/2020
+?total_borrow_period 11/09/2021 02/12/2021
+?total_borrow_period 13/09/2021 06/12/2021
+#

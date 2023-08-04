@@ -1,0 +1,202 @@
+UID000018 BID000005 science 17/12/2021
+UID000007 BID000029 science 14/08/2021
+UID000020 BID000036 economics 07/11/2020
+UID000017 BID000037 economics 11/04/2019
+UID000012 BID000042 science 16/02/2019
+UID000001 BID000027 science 01/04/2019
+UID000011 BID000030 history 05/05/2021
+UID000017 BID000037 economics 01/05/2019
+UID000002 BID000026 science 01/02/2019
+UID000014 BID000050 history 19/05/2019
+UID000008 BID000029 science 29/08/2021
+UID000003 BID000021 economics 16/07/2020
+UID000002 BID000017 economics 01/05/2020
+UID000012 BID000007 economics 05/03/2019
+UID000010 BID000049 history 17/09/2020
+UID000007 BID000048 science 15/08/2020
+UID000014 BID000040 economics 23/02/2019
+UID000008 BID000020 economics 20/12/2021
+UID000018 BID000048 science 28/08/2020
+UID000019 BID000046 economics 22/01/2021
+UID000019 BID000011 science 11/12/2019
+UID000018 BID000017 economics 20/05/2020
+UID000003 BID000032 economics 24/10/2020
+UID000013 BID000035 science 12/05/2020
+UID000011 BID000039 history 02/07/2020
+UID000011 BID000023 economics 09/07/2020
+UID000006 BID000022 science 11/12/2019
+UID000005 BID000023 economics 29/07/2020
+UID000011 BID000006 economics 15/04/2020
+UID000010 BID000011 science 26/12/2019
+UID000003 BID000029 science 20/10/2021
+UID000010 BID000046 economics 29/01/2021
+UID000013 BID000042 science 10/03/2019
+UID000001 BID000026 science 12/02/2019
+UID000004 BID000039 history 18/07/2020
+UID000018 BID000045 science 22/09/2021
+UID000019 BID000045 science 16/10/2021
+UID000017 BID000039 history 05/08/2020
+UID000006 BID000033 history 20/07/2020
+UID000013 BID000041 science 27/07/2020
+UID000002 BID000038 science 13/05/2020
+UID000013 BID000036 economics 15/11/2020
+UID000005 BID000042 science 21/04/2019
+UID000008 BID000025 economics 05/12/2021
+UID000015 BID000021 economics 25/07/2020
+UID000003 BID000007 economics 18/03/2019
+UID000010 BID000005 science 07/01/2022
+UID000008 BID000029 science 13/11/2021
+UID000017 BID000001 science 07/06/2021
+UID000011 BID000048 science 26/09/2020
+UID000014 BID000012 science 05/01/2019
+UID000009 BID000016 economics 16/02/2019
+UID000005 BID000043 science 21/08/2020
+UID000020 BID000046 economics 25/02/2021
+UID000008 BID000020 economics 18/01/2022
+UID000010 BID000028 history 26/09/2021
+UID000011 BID000032 economics 05/11/2020
+UID000014 BID000018 history 24/11/2019
+UID000013 BID000017 economics 16/06/2020
+UID000006 BID000042 science 15/05/2019
+UID000016 BID000021 economics 07/08/2020
+UID000006 BID000035 science 28/05/2020
+UID000007 BID000035 science 21/07/2020
+UID000009 BID000042 science 07/06/2019
+UID000014 BID000009 science 23/09/2020
+UID000008 BID000046 economics 22/03/2021
+UID000009 BID000036 economics 16/12/2020
+UID000014 BID000049 history 11/10/2020
+UID000012 BID000015 science 24/07/2020
+UID000019 BID000033 history 03/08/2020
+UID000006 BID000014 history 14/01/2020
+UID000007 BID000001 science 18/06/2021
+UID000006 BID000043 science 14/09/2020
+UID000017 BID000006 economics 01/05/2020
+UID000010 BID000049 history 17/11/2020
+UID000013 BID000025 economics 18/12/2021
+UID000001 BID000025 economics 11/01/2022
+UID000012 BID000025 economics 12/02/2022
+UID000004 BID000020 economics 15/02/2022
+UID000010 BID000009 science 12/10/2020
+UID000015 BID000029 science 20/12/2021
+UID000017 BID000048 science 01/11/2020
+UID000020 BID000016 economics 08/03/2019
+UID000016 BID000023 economics 24/08/2020
+UID000006 BID000034 science 07/03/2020
+UID000007 BID000003 history 06/12/2019
+UID000001 BID000050 history 04/06/2019
+UID000013 BID000016 economics 21/03/2019
+UID000018 BID000011 science 30/01/2020
+UID000017 BID000027 science 26/04/2019
+UID000018 BID000010 science 03/03/2020
+UID000006 BID000007 economics 15/04/2019
+UID000001 BID000023 economics 03/09/2020
+UID000003 BID000023 economics 28/09/2020
+UID000015 BID000020 economics 18/03/2022
+UID000019 BID000036 economics 09/01/2021
+UID000019 BID000016 economics 20/04/2019
+UID000019 BID000037 economics 15/06/2019
+UID000003 BID000043 science 02/10/2020
+UID000001 BID000041 science 19/08/2020
+#
+?number_user_borrow UID000044
+?number_user_borrow UID000079
+?number_user_borrow UID000083
+?number_user_borrow UID000013
+?number_user_borrow UID000053
+?number_user_borrow UID000004
+?number_user_borrow UID000067
+?number_user_borrow UID000027
+?number_user_borrow UID000035
+?number_user_borrow UID000057
+?number_user_borrow UID000091
+?number_user_borrow UID000032
+?number_user_borrow UID000001
+?number_user_borrow UID000084
+?number_user_borrow UID000071
+?number_user_borrow UID000028
+?number_user_borrow UID000026
+?number_user_borrow UID000099
+?number_user_borrow UID000066
+?number_user_borrow UID000014
+?number_user_borrow UID000033
+?number_user_borrow UID000002
+?number_user_borrow UID000092
+?number_user_borrow UID000016
+?number_user_borrow UID000070
+?number_user_borrow UID000087
+?number_user_borrow UID000064
+?number_user_borrow UID000098
+?number_user_borrow UID000076
+?number_user_borrow UID000078
+?number_user_borrow UID000072
+?number_user_borrow UID000008
+?number_user_borrow UID000089
+?number_user_borrow UID000052
+?number_user_borrow UID000086
+?number_user_borrow UID000050
+?number_user_borrow UID000020
+?number_user_borrow UID000034
+?number_user_borrow UID000021
+?number_user_borrow UID000093
+?number_user_borrow UID000073
+?number_user_borrow UID000055
+?number_user_borrow UID000030
+?number_user_borrow UID000081
+?number_user_borrow UID000006
+?number_user_borrow UID000069
+?number_user_borrow UID000060
+?number_user_borrow UID000096
+?number_user_borrow UID000023
+?number_user_borrow UID000059
+?number_user_borrow UID000003
+?number_user_borrow UID000022
+?number_user_borrow UID000017
+?number_user_borrow UID000056
+?number_user_borrow UID000088
+?number_user_borrow UID000005
+?number_user_borrow UID000025
+?number_user_borrow UID000077
+?number_user_borrow UID000054
+?number_user_borrow UID000045
+?number_user_borrow UID000031
+?number_user_borrow UID000068
+?number_user_borrow UID000012
+?number_user_borrow UID000037
+?number_user_borrow UID000049
+?number_user_borrow UID000051
+?number_user_borrow UID000085
+?number_user_borrow UID000097
+?number_user_borrow UID000074
+?number_user_borrow UID000036
+?number_user_borrow UID000080
+?number_user_borrow UID000039
+?number_user_borrow UID000029
+?number_user_borrow UID000007
+?number_user_borrow UID000100
+?number_user_borrow UID000019
+?number_user_borrow UID000063
+?number_user_borrow UID000042
+?number_user_borrow UID000061
+?number_user_borrow UID000082
+?number_user_borrow UID000010
+?number_user_borrow UID000094
+?number_user_borrow UID000041
+?number_user_borrow UID000011
+?number_user_borrow UID000075
+?number_user_borrow UID000090
+?number_user_borrow UID000048
+?number_user_borrow UID000040
+?number_user_borrow UID000009
+?number_user_borrow UID000062
+?number_user_borrow UID000038
+?number_user_borrow UID000065
+?number_user_borrow UID000046
+?number_user_borrow UID000095
+?number_user_borrow UID000043
+?number_user_borrow UID000047
+?number_user_borrow UID000058
+?number_user_borrow UID000018
+?number_user_borrow UID000015
+?number_user_borrow UID000024
+#
